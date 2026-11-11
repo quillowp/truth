@@ -1,0 +1,122 @@
+#main {
+    margin-left: 28%;
+    margin-right: 35%;
+    border: 1px solid rgb(37, 36, 51);
+    border-top: 0;
+    border-bottom: 0;
+scrollbar-width: none;  /* Firefox, Safari 18.2+, Chromium 121+ */
+}
+
+html {
+    scrollbar-gutter: stable;
+}
+
+body {
+    background-color: #08051b;
+    color: white;
+    font-family:  Helvetica, sans-serif;
+    font-size: 18px;
+
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;  /* Firefox, Safari 18.2+, Chromium 121+ */
+
+    margin: 0;
+  padding: 0;
+}
+
+#top {
+    height: 100px;
+    background-color: #1d145a;
+    color: white;
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    align-content: center;
+    padding-left: 10%;
+    font-weight: 900;
+    position: sticky;
+    z-index: 10;
+    .period {
+        color:aqua
+    }
+    scrollbar-width: none;  /* Firefox, Safari 18.2+, Chromium 121+ */
+}
+
+#profile {
+
+    #pfp {
+        width: 100px;
+        border-radius: 50%;
+        border: 10px solid #08051b;
+        margin: 5%;
+        margin-top: -50px;
+    }
+    #banner {
+        width: 100%;
+    }
+
+    p {
+        padding-left: 30px;
+    }
+    #name {
+        font-size: 35px;
+        margin-top: -20px;
+    }
+    #verified {
+        width: 40px;
+        vertical-align: middle;
+    }
+    
+}
+
+#tabs {
+    display: flex;
+    width: 100%;
+    justify-content:space-evenly;
+    div {
+        width: 100%;
+        cursor: pointer;
+    }
+
+    p {
+        padding-left: 0;
+        padding-left: 38%;
+        display: flex;
+        padding-bottom: 10px;
+    }
+    
+}
+
+#pfp {
+        width: 50px;
+        border-radius: 50%;
+    }
+
+#post {
+    #pfp {
+        margin: 0px !important;
+        vertical-align: middle;
+        width: 50px !important; 
+        border: 0px !important;
+        margin-right: 40px;
+    }
+
+    #verified {
+        width: 20px;
+    }
+    #name {
+        font-size: 16px;
+    }
+
+    padding-right: 30px;
+    border-bottom: 1px solid rgb(37, 36, 51);
+}
+
+.greyed {
+    color: grey;
+    font-size: 16px;
+}
+
+#tag {
+    color: grey;
+    margin-top: -30px;
+}
