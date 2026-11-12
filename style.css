@@ -120,3 +120,11 @@ body {
     color: grey;
     margin-top: -30px;
 }
+
+#video {
+    width: 100%;
+    margin-left: 5%;
+    border: 1px solid rgb(37, 36, 51);
+    border-radius: 20px;
+    margin-bottom: 40px;
+}
